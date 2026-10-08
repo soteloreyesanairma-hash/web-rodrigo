@@ -9,6 +9,9 @@
     <header>
         <h1>Sagui-Fashion</h1>
         <p>Tu estilo, tu personalidad</p>
+        <p>Somos una tienda de ropa que ofrece prendas modernas,
+            cómodas y de una buena calidad  para todo los tipos
+            de estilo.</p>
         <nav>
             <ul>
                 <li>Inicio</li>
@@ -19,15 +22,6 @@
         </nav>
     </header>
     <main>
-        <section>
-            <article>
-                <h2>Bienvenidos a Sagui-Fashion</h2>
-                <p>Somos una tienda de ropa que ofrece prendas modernas,
-                    cómodas y de una buena calidad  para todo los tipos
-                    de estilo.
-                </p>
-            </article>
-        </section>
         <section>
             <h2>Nuestros Productos</h2>
             <article>
@@ -68,7 +62,46 @@
                 </tr>
             </table>
         </section>
-        <section></section>
+        <section>
+            <article>
+                <h2>Realiza tu pedido</h2>
+                <form>
+                        <label>Nombre: </label>
+                        <input type="text" name="Nombre" id="Nombre" required>
+                        <br><br>
+                        <label>Apellidos: </label>
+                        <input type="text" name="Apellidos" id="Apellidos" required>
+                        <br><br>
+                        <label>Correo: </label>
+                        <input type="text" name="Correo" id="Correo" required>
+                        <br><br>
+                        <label>Producto: </label>
+                        <select>
+                            <option>Seleccione un producto</option>
+                            <option>Polo</option>
+                            <option>Pantalon</option>
+                            <option>Casaca</option>
+                        </select>
+                        <br><br>
+                        <label>Talla: </label>
+                        <select>
+                            <option>Seleccione su talla</option>
+                            <option>S</option>
+                            <option>M</option>
+                            <option>L</option>
+                            <option>XL</option>
+                        </select>
+                        <br><br>
+                        <label>Cantidad</label>
+                        <input type="number" name="Cantidad" id="Cantidad" required>
+                        <br><br>
+                        <label>Mnesaje</label>
+                        <input type="text" name="Mnesaje" id="Mensaje">
+                        <br><br>
+                        <button type="submit">Enviar pedido</button>
+                </form>
+            </article>
+        </section>
     </main>
 </body>
 </html>
