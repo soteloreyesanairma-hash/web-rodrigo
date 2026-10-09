@@ -3,10 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/imagenes.css">
+    <link rel="stylesheet" href="css/carrusel.css">
     <title>Document</title>
 </head>
 <body>
+    <!-- Carrusel -->
+    <section>
+        <div class="carrusel">
+            <img src="images/poloBasico.webp" class="imagen activa">
+            <img src="images/pantalon.webp" class="imagen">
+            <img src="images/casacas.webp" class="imagen">
+        </div>
+    </section>
     <header>
         <h1>Sagui-Fashion</h1>
         <p>Tu estilo, tu personalidad</p>
@@ -23,24 +31,7 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h2>Nuestros Productos</h2>
-            <article>
-                <h3>Polo Básico</h3>
-                <img src="image/poloBasico.webp" alt="Polo Basico">
-                <p>Polo cómodo y moderno para el uso diario</p>
-            </article>
-            <article>
-                <h3>Pantalón</h3>
-                <img src="image/pantalon.webp" alt="Pantalon">
-                <p>Pantalon de excelente calidad y de diferentes tallas</p>
-            </article>
-            <article>
-                <h3>Casacas</h3>
-                <img src="image/casacas.webp" alt="Casacas">
-                <p>Casacas modernas que completan tu estilo</p>
-            </article>
-        </section>
+        <!-- Tabla de productos -->
         <section>
             <h2>Lista de produtos</h2>
             <table>
@@ -66,6 +57,7 @@
                 </tr>
             </table>
         </section>
+        <!-- Formulario -->
         <section>
             <article>
                 <h2>Realiza tu pedido</h2>
@@ -107,6 +99,7 @@
             </article>
         </section>
     </main>
+    <!-- Informacion -->
     <footer>
         <h2>Contactanos</h2>
         <p>Si deseas consultar sobre nuestros productos,
@@ -121,5 +114,6 @@
         <p>Correo: SaguiFashin@gmail.com</p>
         <p>© 2026 SAGUI-FASHION. Todos los derechos reservados</p>
     </footer>
+    <script src="js/carrusel.js"></script>
 </body>
 </html>
