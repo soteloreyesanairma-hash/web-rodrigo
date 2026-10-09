@@ -8,7 +8,7 @@
 .imagen{
     width: 100%;
     height: 600px;
-    object-fit: cover;
+    object-fit: contain;
     display: none;
 }
 
