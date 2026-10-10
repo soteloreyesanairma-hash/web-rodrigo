@@ -42,12 +42,13 @@ nav ul {
     flex-wrap: wrap;
 }
 
-nav li {
+nav a {
     color: white;
+    text-decoration: none;
     font-weight: bold;
     cursor: pointer;
 }
 
-nav li:hover {
+nav a:hover {
     color: #58c4ff;
 }

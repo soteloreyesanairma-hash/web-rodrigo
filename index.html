@@ -14,14 +14,14 @@
 </head>
 <body>
     <!-- Carrusel -->
-    <section>
+    <section id="#inicio-pagina">
         <div class="carrusel">
             <img src="images/polosCarrusel.webp" class="imagen activa">
             <img src="images/pantalonesCarrusel.webp" class="imagen">
             <img src="images/casacasCarrusel.webp" class="imagen">
         </div>
     </section>
-    <header>
+    <header id="inicio">
         <h1>Sagui-Fashion</h1>
         <p>Tu estilo, tu personalidad</p>
         <p>Somos una tienda de ropa que ofrece prendas modernas,
@@ -29,13 +29,13 @@
             de estilo.</p>
         <nav>
             <ul>
-                <li>Inicio</li>
-                <li>Productos</li>
-                <li>Precios</li>
-                <li>Contacto</li>
+                <li><a href="#inicio-pagina">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#precios">Precios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
-        <section class="productos">
+        <section class="productos" id="productos">
             <article>
             <h3>Polo Basico</h3>
             <img src="images/poloBasico.webp" alt="Polo Basico">
@@ -55,7 +55,7 @@
     </header>
     <main>
         <!-- Tabla de productos -->
-        <section>
+        <section id="precios">
             <h2>Lista de produtos</h2>
             <table>
                 <tr>
@@ -84,7 +84,7 @@
         <section>
             <article>
                 <h2>Realiza tu pedido</h2>
-                <form>
+                <form id="formularioPedido">
                         <label>Nombre: </label>
                         <input type="text" name="Nombre" id="Nombre" required>
                         <br><br>
@@ -95,7 +95,7 @@
                         <input type="text" name="Correo" id="Correo" required>
                         <br><br>
                         <label>Producto: </label>
-                        <select>
+                        <select id="producto" required>
                             <option>Seleccione un producto</option>
                             <option>Polo</option>
                             <option>Pantalon</option>
@@ -103,7 +103,7 @@
                         </select>
                         <br><br>
                         <label>Talla: </label>
-                        <select>
+                        <select id="talla" required>
                             <option>Seleccione su talla</option>
                             <option>S</option>
                             <option>M</option>
@@ -112,7 +112,7 @@
                         </select>
                         <br><br>
                         <label>Cantidad</label>
-                        <input type="number" name="Cantidad" id="Cantidad" required>
+                        <input type="number" name="Cantidad" id="Cantidad" min="1" required>
                         <br><br>
                         <label>Mnesaje</label>
                         <input type="text" name="Mnesaje" id="Mensaje">
@@ -123,7 +123,7 @@
         </section>
     </main>
     <!-- Informacion -->
-    <footer>
+    <footer id="contacto">
         <h2>Contactanos</h2>
         <p>Si deseas consultar sobre nuestros productos,
             puedes comicarte con nosotros
@@ -138,5 +138,6 @@
         <p>© 2026 SAGUI-FASHION. Todos los derechos reservados</p>
     </footer>
     <script src="js/carrusel.js"></script>
+    <script src="js/pedido.js"></script>
 </body>
 </html>
