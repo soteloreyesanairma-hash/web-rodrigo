@@ -1,0 +1,43 @@
+
+/* SECCION DE LA TABLA */
+main section:first-child {
+    max-width: 100%;
+    margin: 0;
+    padding: 35px 20px;
+    background-color: #f4f7fb;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+/* TITULO */
+main section:first-child h2 {
+    color: #102a43;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* TABLA */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* ENCABEZADOS */
+th {
+    background-color: #1565c0;
+    color: white;
+    padding: 14px;
+}
+
+/* CELDAS */
+td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #dce4ec;
+}
+
+/* EFECTO AL PASAR EL MOUSE */
+tbody tr:hover,
+tr:hover td {
+    background-color: #edf6ff;
+}

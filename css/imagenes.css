@@ -1,0 +1,19 @@
+.productos img {
+    width: 200px;
+    height: 220px;
+    object-fit: contain;
+    display: block;
+}
+
+.productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 250px;
+}
+
+.productos article {
+    width: 200px;
+    text-align: center;
+}

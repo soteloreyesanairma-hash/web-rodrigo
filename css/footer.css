@@ -1,0 +1,47 @@
+
+/* PIE DE PAGINA */
+footer {
+    background-color: #102a43;
+    color: white;
+    text-align: center;
+    padding: 35px 20px;
+    margin-top: 40px;
+}
+
+/* TITULO */
+footer h2 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* SUBTITULO */
+footer h3 {
+    margin: 20px 0 10px;
+    color: #58c4ff;
+}
+
+/* LISTA DE REDES */
+footer ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+footer li {
+    margin: 8px 0;
+}
+
+/* ENLACES */
+footer a {
+    color: #58c4ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* TEXTOS */
+footer p {
+    margin: 10px 0;
+}

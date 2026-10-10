@@ -1,0 +1,72 @@
+
+/* SECCION DEL FORMULARIO */
+main section:last-child {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 35px 20px;
+    background-color: #f4f7fb;
+    border-radius: 0;
+    box-shadow: none;
+}
+
+main section:last-child article {
+    max-width: 600px;
+    margin: auto;
+    padding: 25px;
+    background-color: #f4f7fb;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px #102a4310;
+}
+
+/* TITULO */
+main section:last-child h2 {
+    color: #102a43;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* ETIQUETAS */
+form label {
+    display: inline-block;
+    width: 110px;
+    margin-bottom: 8px;
+    color: #263238;
+    font-weight: bold;
+}
+
+/* CAMPOS */
+form input,
+form select {
+    width: calc(100% - 120px);
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* AL SELECCIONAR UN CAMPO */
+form input:focus,
+form select:focus {
+    outline: 2px solid #58c4ff;
+    border-color: #1565c0;
+}
+
+/* BOTON */
+form button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 12px 25px;
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0b1f33;
+}
